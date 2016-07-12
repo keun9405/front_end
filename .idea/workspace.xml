@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c8260e-0844-44d0-8d36-1248f81b6230" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/1454744084.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/1454744830.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/1454745114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/1467794853.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/btn_ccm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/btn_celectory.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/btn_happypoint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/btn_ksa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/btn_norton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/btn_spc_story.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/footer_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/h_event.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/h_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/h_sns.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/icon_blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/icon_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/icon_instgram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/icon_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/icon_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_flaovr_month_top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_happypoint_app.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_main_banner_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_menu_list_03-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_menu_list_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_menu_list_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_menu_list_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_menu_list_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_menu_list_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/img_month_1607.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/logo_baskinrobbins.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/stit_happypoint.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/images/baskin/stit_store.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/p3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/html/practice/p2.html" afterPath="$PROJECT_DIR$/class/html/practice/p2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="04c8260e-0844-44d0-8d36-1248f81b6230" name="Default" comment="" />
     <ignored path="front_end.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,10 +57,11 @@
       <file leaf-file-name="p3.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class/html/practice/p3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.221843">
-              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.17064847">
+              <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -470,10 +435,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/html/practice/p3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.221843">
-          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.17064847">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
