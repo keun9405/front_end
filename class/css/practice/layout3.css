@@ -1,0 +1,68 @@
+  .wrap{
+    width:980px;
+    margin: 0 auto;
+    color: #Fff;
+  }
+
+  .header{
+    height: 100px;
+    background-color: lightseagreen;
+
+  }
+
+  .left-col{
+    float: left;
+    width: 300px;
+  }
+
+
+  .container:after{
+    content:"";
+    display: block;
+    clear: both;
+  }
+
+
+  .first-tile{
+    width:300px;
+    height: 300px;
+    background-color: red;
+    font-size:30px;
+  }
+
+
+  .and-another{
+    height:500px;
+    background-color: blue;
+  }
+
+  .right-col{
+    float: left;
+    width: 680px;
+  }
+
+  .another-tile{
+    width:680px;
+    height:650px;
+    background-color: orange;
+  }
+
+  .forth{
+    width:480px;
+    height:150px;
+    background-color: darkblue;
+    float: left;
+
+  }
+
+  .last{
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    float: right;
+  }
+
+  .footer{
+    height: 100px;
+    background-color: black;
+  }
