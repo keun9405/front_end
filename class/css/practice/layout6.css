@@ -1,0 +1,90 @@
+.wrap{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  background-color: #567BCC;
+}
+
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+
+
+}
+
+.lnb{
+  width: 230px;
+  height: 700px;
+  float: left;
+  background-color: #7F5643;
+}
+
+.con_a{
+  width: 750px;
+  float: right;
+}
+
+.one{
+  height: 100px;
+  background-color: darkkhaki;
+
+}
+
+.con1{
+  width: 375px;
+  float: left;
+}
+
+.two{
+  width: 375px;
+  height: 200px;
+  background-color: #CC846B;
+}
+
+.three{
+  width: 375px;
+  height: 200px;
+  background-color: #FFA585;
+
+}
+
+.four{
+  width: 375px;
+  height: 200px;
+  background-color: bisque;
+}
+
+.con2{
+  width: 375px;
+  float: left;
+}
+
+.five{
+  width: 375px;
+  height: 200px;
+  background-color: #FFD38A;
+}
+
+.six{
+  width: 375px;
+  height: 200px;
+  background-color: darksalmon;
+}
+
+.seven{
+  width: 375px;
+  height: 200px;
+  background-color: burlywood;
+}
+
+.footer{
+  height: 100px;
+  background-color: #4B6399;
+  clear: both;
+}
+
+
