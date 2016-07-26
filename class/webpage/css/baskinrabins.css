@@ -251,6 +251,252 @@
     background: #f0eb1b url(../images/baskin/img_main_banner_2.jpg) no-repeat 50% 0;
   }
 
+  .br-event-heading{
+    width: 87px;
+    height: 14px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/baskin/h_event.png) no-repeat;
+    margin: 100px auto 50px;
+  }
+
+  .event-list:after{
+    content: "";
+    display: block;
+    clear: both;
+
+  }
+
+  .event-list-item{
+    margin-right: 16px;
+    float: left;
+
+  }
+
+  .event-list-item.last{
+    margin-right: 0;
+  }
+
+  /* 가상 selector 쓰는 방법*/
+  /*
+    1.last-child
+
+  .event-list-item:last-child{
+    margin-right: 0;
+  }
+
+    2. first-child
+
+  .event-list-item{
+    float: left;
+    margin-left: 16px;
+  }
+
+  .event-list-item:first-child{
+    margin-left: 0;
+  }
+
+  */
+
+
+  .event-list-item .event-item-module .event-item-title img{
+    width: 288px;
+  }
+
+  .event-item-text{
+    margin-top: 20px;
+  }
+
+
+  /* 가상 selector 쓰는 방법2 */
+
+  /*
+    3.nth-child
+
+
+
+  */
+
+  .event-item-text:nth-child(3){
+    font-size: 17px;
+    color:#000;
+    width: 288px;
+    line-height: 1.6;
+    word-break:break-all;
+    text-align: justify;
+    height: 54px;
+  }
+
+  .event-item-text:nth-child(3) a{
+    color:#000;
+  }
+
+  .ir-store-event{
+    width: 114px;
+    height: 22px;
+    text-indent: -99999em;
+    background: url(../images/baskin/stit_store.gif) no-repeat;
+  }
+
+  .ir-happy-event{
+    width: 148px;
+    height: 22px;
+    text-indent: -99999em;
+    background: url(../images/baskin/stit_happypoint.gif) no-repeat;
+  }
+
+
+  .menu-list{
+    text-indent: -99999em;
+    width: 1200px;
+    height: 1065px;
+    background: url(../images/baskin/img_menu_list.png) no-repeat;
+
+  }
+
+
+  .br-menu-heading{
+    width: 87px;
+    height: 14px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/baskin/h_menu.png) no-repeat 0 78px;
+    padding: 78px 0 0;
+    margin: 0 auto;
+
+  }
+
+
+  .br-menu{
+    background: url(../images/baskin/bg_menu.jpg) no-repeat 50% 0;
+    margin-top: 100px;
+  }
+
+  .br-store-heading{
+    width: 87px;
+    height: 14px;
+    text-indent: -99999em;
+    background: url(../images/baskin/h_store.png) no-repeat 0 95px;
+    padding:95px 0 50px;
+    margin: 0 auto;
+
+  }
+
+
+  .br-order-heading{
+    width: 244px;
+    height: 14px;
+    text-indent: -99999em;
+    background: url(../images/baskin/h_happyorder_delivery.png) no-repeat 0 95px;
+    padding: 95px 0 50px;
+    margin: 0 auto;
+
+  }
+
+
+  .br-store,
+  .happy-order{
+    width: 600px;
+    float: left;
+
+  }
+
+  .br-store-link{
+    display: block;
+    width: 600px;
+    height:260px;
+    text-indent: -99999em;
+    background: url(../images/baskin/img_store.jpg) no-repeat;
+
+
+  }
+
+  .br-order-link{
+    display: block;
+    width: 599px;
+    height:260px ;
+    text-indent: -99999em;
+    background: url(../images/baskin/img_happyorder_delivery.jpg) no-repeat;
+  }
+
+  .snsbox-heading{
+    width: 45px;
+    height: 14px;
+    text-indent: -99999em;
+    background: url(../images/baskin/h_sns.png) no-repeat 0 95px;
+    padding: 95px 0 50px;
+    margin: 0 auto;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .clearfix:after{
+    content: "";
+    display:block;
+    clear: both;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
