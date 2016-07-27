@@ -1,0 +1,117 @@
+  .small-wrap{
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+  }
+
+  .header{
+    height: 85px;
+    width: 100%;
+    padding: 0 0 7px 0;
+  }
+
+  .logo{
+    position: absolute;
+    left: 50%;
+    margin-left: -117px;
+    top:0;
+  }
+
+  .util-wrap{
+    float: right;
+    margin:32px 50px 0 0 ;
+
+  }
+
+  .util-cs{
+    float: left;
+    margin-top: 3px;
+  }
+
+  .util-cs-item{
+    float: left;
+    margin-right:20px;
+
+  }
+
+  .fb-logo{
+    float:left;
+  }
+
+  .nav{
+    padding: 1px 0;
+    height: 36px;
+    background: #2b3e4f;
+  }
+
+
+  .nav-heading{
+    display: none;
+  }
+
+  .gnb-depth1-item{
+    float: left;
+    width: 200px;
+    height: 36px;
+  }
+
+  .gnb-depth1-link{
+    height:36px ;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+
+  }
+
+  .gnb-depth1-link:hover{
+    background: #0e68ab;
+
+  }
+
+  .gnb-depth2{
+    position: absolute;
+    width:198px;
+    border: 1px solid #aaa;
+
+  }
+
+  .gnb-depth2-link{
+    padding: 3px 20px;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .gnb-depth2-item{
+    background: #fff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
