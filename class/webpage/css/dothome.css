@@ -8,6 +8,10 @@
     height: 85px;
     width: 100%;
     padding: 0 0 7px 0;
+    position: fixed;
+    top:0;
+    left:0;
+    background: #fff;
   }
 
   .logo{
@@ -39,9 +43,13 @@
   }
 
   .nav{
+    width: 100%;
     padding: 1px 0;
     height: 36px;
     background: #2b3e4f;
+    position: fixed;
+    top: 92px;
+    left: 0;
   }
 
 
@@ -71,22 +79,271 @@
   }
 
   .gnb-depth2{
+    display: none;
     position: absolute;
     width:198px;
-    border: 1px solid #aaa;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding:5px 0;
 
   }
 
   .gnb-depth2-link{
-    padding: 3px 20px;
-    display: block;
-    font-size: 14px;
-    line-height: 1.5;
+    display:block;
+    padding:3px 20px;
+    font-size:14px;
+    line-height:1.6;
+    color:#999;
   }
 
-  .gnb-depth2-item{
-    background: #fff;
+  .gnb-depth2-link:hover{
+    color:#000;
   }
+
+  .join-member{
+    width:470px;
+    padding:14px;
+    border:1px solid #e3e3e3;
+    background:#f5f5f5;
+    margin:180px auto 400px;
+    border-radius:6px;
+
+  }
+
+  .section-heading{
+    display:none;
+  }
+
+  .form-wrap{
+    padding:15px;
+    border:1px solid #ddd;
+    background:#fff;
+    border-radius:6px;
+  }
+
+  .blind{
+    display:none;
+  }
+
+  .input-text{
+    display:block;
+    height:34px;
+    border:1px solid #ccc;
+    padding-left:10px;
+    font-size:12px;
+    box-sizing:border-box;
+  }
+
+  .width-id{
+    width:358px;
+  }
+
+  .width-half{
+    width:50%;
+  }
+
+  .width-full{
+    width:100%;
+  }
+
+  .btn{
+    display:block;
+    background:#0268ab;
+    color:#fff;
+    border:0;
+    cursor:pointer;
+  }
+
+  .btn-overlap{
+    width:80px;
+    height:34px;
+  }
+
+  /*.form-desc{*/
+    /*color:#ababab;*/
+    /*font-size:11px;*/
+    /*font-weight:bold;*/
+    /*padding-bottom:10px;*/
+    /*display:inline-block;*/
+    /*padding-right:15px;*/
+  /*}*/
+
+  /*.form-desc:after{*/
+    /*content:"";*/
+    /*display:block;*/
+    /*width:8px;*/
+    /*height:11px;*/
+    /*background:url(../images/dothome/gif.gif) no-repeat;*/
+    /*position:absolute;*/
+    /*top:0;*/
+    /*right:0;*/
+  /*}*/
+
+
+
+  .form-desc{
+    color:#ababab;
+    font-size:11px;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .form-desc:after{
+    content:"";
+    display:inline-block;
+    width:8px;
+    height:11px;
+    background:url(../images/dothome/gif.gif) no-repeat;
+  }
+
+
+  .terms-chk-box{
+    padding: 20px ;
+  }
+
+  .chk-item{
+    display: inline-block;
+    width: 49%;
+    height: 20px;
+    line-height: 20px;
+
+  }
+
+
+  .mid-margin-bottom{
+    margin-bottom:10px;
+  }
+
+  .left-float{
+    float:left;
+  }
+
+  .right-float{
+    float:right;
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #0268ab;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #0268ab;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #0268ab;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #0268ab;
+  }
+
+  .clearfix{
+    content:"";
+    display:block;
+    clear:both;
+  }
+
+  .width-ok{
+    width: 280px;
+  }
+
+  .center{
+    text-align: center;
+    color:#ababab;
+    font-size:11px;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin: 15px auto;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .top-border{
+    border-top:1px solid #dde;
+    padding-top:15px;
+    margin-bottom: 15px;
+
+  }
+
+  .input-mail{
+    display:inline-block;
+    width: 200px;
+    height:34px;
+    border:1px solid #bbc;
+    padding-left:10px;
+    font-size:12px;
+    box-sizing:border-box;
+  }
+
+  .check-text{
+    text-align: center;
+  }
+
+  .check-label{
+    font-size: 11px;
+    vertical-align: middle;
+
+  }
+
+  .chk-box{
+    margin: 10px auto;
+    vertical-align: middle;
+
+  }
+
+  .check-wrap:last-child{
+    margin-left: 20px;
+  }
+
+
+
+  .mail-mark{
+    border: 1px solid #cccccc;
+    width: 12px;
+    height: 20px;
+    padding: 6px 12px;
+    background: #eee;
+    line-height: 1.6;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+  }
+
+
+  .over{
+    border: 1px solid #ccc;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    background: #f9f9f9;
+    line-height: 36px;
+    margin-top: 15px;
+    color: #333333;
+    margin-bottom: 10px;
+
+  }
+
+  .terms-chk-box{
+    border: 1px solid #cccccc;
+
+  }
+
+  .big-button{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .btn:hover{
+    background: #147AC6;
+
+
+  }
+
+
+
+
+
 
 
 
@@ -110,8 +367,7 @@
 
 
   .clearfix:after{
-    content: "";
-    display: block;
-    clear: both;
+    content:"";
+    display:block;
+    clear:both;
   }
-

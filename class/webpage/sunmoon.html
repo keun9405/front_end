@@ -2,45 +2,46 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>페이지 제작 연습</title>
+  <title>선문대학교</title>
   <link rel="stylesheet" href="css/reset.css"/>
   <link rel="stylesheet" href="css/sunmoon.css"/>
 </head>
 <body>
   <div>
-    <haeder>
 
-      <h1>
-        <img src="images/logo2.png" alt="선문대학교 로고"/>
-      </h1>
-      <div>
+    <haeder class="header">
 
-        <ul>
-          <li><a href="">ENGLISH</a></li>
-          <li><a href="">CHINESE</a></li>
-          <li><a href="">JAPANESE</a></li>
-        </ul>
+      <div class="small-wrap ">
 
-        <div>
+        <div class="float-left">
 
-          <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">LOGIN</a></li>
-            <li><a href="">SITEMAP</a></li>
-          </ul>
-
-          <a href="">선문포털</a>
-
-          <fieldset>
-            <legend>검색</legend>
-            <input type="text"/>
-           <button type="button">검색</button>
-          </fieldset>
-
-
-          </fieldset>
-
+          <div class="util">
+            <ul class="util-menu">
+              <li class="util-menu-item"><a href="#" class="util-menu-link">ENGLISH</a></li>
+              <li class="util-menu-item"><a href="#" class="util-menu-link">CHINESE</a></li>
+              <li class="util-menu-item"><a href="#" class="util-menu-link">JAPANESE</a></li>
+            </ul>
+          </div>
         </div>
+
+          <div class="float-right">
+            <ul class="notic">
+              <li class="notic-menu"><a href="#" class="notic-menu-link">HOME</a></li>
+              <li class="notic-menu"><a href="#" class="notic-menu-link">LOGIN</a></li>
+              <li class="notic-menu"><a href="#" class="notic-menu-link">SITE MAP</a></li>
+            </ul>
+
+            <button type="button" class="potal">선문포털</button>
+
+            <fieldset>
+              <legend>검색</legend>
+              <input type="text"/>
+              <button type="button">검색</button>
+            </fieldset>
+
+          </div>
+
+
 
 
       </div>
@@ -49,186 +50,193 @@
     </haeder>
 
     <nav>
-      <ul>
-        <li>
-          <a href="">학교소개</a>
-          <ul>
+      <div class="small-wrap">
+        <h1 class="logo">
+          <img src="images/sunmoon/logo2.png" alt="선문대학교 로고"/>
+        </h1>
 
-            <li>
-              <a href="">총장실</a>
-              <ul>
-                <li><a href="">인사말</a></li>
-                <li><a href="">총장약력</a></li>
-                <li><a href="">총장동정</a></li>
-                <li><a href="">역대총장</a></li>
-                <li><a href="">총장과의 대화</a></li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="">역사/이념</a>
-              <ul>
-                <li><a href="">연혁</a></li>
-                <li><a href="">설립취지</a></li>
-                <li><a href="">건학이념</a></li>
-                <li><a href="">교육목적 및 목표</a></li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="">대학비전</a>
-              <ul>
-                <li><a href="">비전과 전략방향</a></li>
-                <li><a href="">비전전략체계</a></li>
-                <li><a href="">영역별 전략 및 실행과제</a></li>
-                <li><a href="">중장기 로드맵</a></li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="">대학특성화</a>
-              <ul>
-                <li><a href="">특셩화 비전과 인재상</a></li>
-                <li><a href="">특성화 분야</a></li>
-                <li><a href="">특성화 전략 계획</a></li>
-                <li><a href="">기대효과</a></li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="">대학현황</a>
-              <ul>
-                <li><a href="">조직도</a></li>
-                <li><a href="">학교법인</a></li>
-                <li><a href="">학칙및규정</a></li>
-                <li><a href="">학교요람</a></li>
-                <li><a href="">예결산공고</a></li>
-                <li><a href="">등록금 심의위원회 회의록</a></li>
-                <li><a href="">대학자체평가</a></li>
-                <li><a href="">대학정보공시</a></li>
-                <li><a href="">감사결과공고</a></li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="">선문학원</a>
-              <ul>
-                <li><a href="">선화예술고등학교</a></li>
-                <li><a href="">선정고등학교</a></li>
-                <li><a href="">선정관광고등학교</a></li>
-                <li><a href="">선화예술학교</a></li>
-                <li><a href="">선정중학교</a></li>
-                <li><a href="">경복초등학교</a></li>
-                <li><a href="">선화유치원</a></li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="">사이버홍보관</a>
-              <ul>
-                <li><a href="">홍보영상</li>
-                <li><a href="">홍보책자</li>
-              </ul>
-            </li>
-            <li><a href="">캠퍼스안내</li>
-
-          </ul>
-        </li>
-
-
-        <li>
-          <a href="">입학안내
-            <ul>
-              <li><a href="">대학</li>
-              <li><a href="">대학원</li>
-              <li><a href="">한국어교육원</li>
-            </ul>
-        </li>
-        <li>
-          <a href="">대학/대학원
-            <ul>
-
+        <ul class="gnb">
+          <li class="gnb-depth1-item">
+            <a href="" class="gnb-depth1-link">학교소개</a>
+            <ul class="gnb-depth2-item">
               <li>
-                <a href="">대학
-                  <ul>
-                    <li><a href="">신학순결대학</li>
-                    <li><a href="">인문사회대학</li>
-                    <li><a href="">글로벌비즈니스외국어대학</li>
-                    <li><a href="">건강보건대학</li>
-                    <li><a href="">공과대학</li>
-                    <li><a href="">교양교육원</li>
-                  </ul>
+                <a href="">총장실</a>
+                <ul>
+                  <li><a href="">인사말</a></li>
+                  <li><a href="">총장약력</a></li>
+                  <li><a href="">총장동정</a></li>
+                  <li><a href="">역대총장</a></li>
+                  <li><a href="">총장과의 대화</a></li>
+                </ul>
               </li>
 
               <li>
-                <a href="">대학원
-                  <ul>
-                    <li><a href="">일반대학원</li>
-                    <li><a href="">신학전문대학원</li>
-                    <li><a href="">교육대학원</li>
-                    <li><a href="">글로컬통합대학원</li>
-                  </ul>
+                <a href="">역사/이념</a>
+                <ul>
+                  <li><a href="">연혁</a></li>
+                  <li><a href="">설립취지</a></li>
+                  <li><a href="">건학이념</a></li>
+                  <li><a href="">교육목적 및 목표</a></li>
+                </ul>
               </li>
 
+              <li>
+                <a href="">대학비전</a>
+                <ul>
+                  <li><a href="">비전과 전략방향</a></li>
+                  <li><a href="">비전전략체계</a></li>
+                  <li><a href="">영역별 전략 및 실행과제</a></li>
+                  <li><a href="">중장기 로드맵</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="">대학특성화</a>
+                <ul>
+                  <li><a href="">특셩화 비전과 인재상</a></li>
+                  <li><a href="">특성화 분야</a></li>
+                  <li><a href="">특성화 전략 계획</a></li>
+                  <li><a href="">기대효과</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="">대학현황</a>
+                <ul>
+                  <li><a href="">조직도</a></li>
+                  <li><a href="">학교법인</a></li>
+                  <li><a href="">학칙및규정</a></li>
+                  <li><a href="">학교요람</a></li>
+                  <li><a href="">예결산공고</a></li>
+                  <li><a href="">등록금 심의위원회 회의록</a></li>
+                  <li><a href="">대학자체평가</a></li>
+                  <li><a href="">대학정보공시</a></li>
+                  <li><a href="">감사결과공고</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="">선문학원</a>
+                <ul>
+                  <li><a href="">선화예술고등학교</a></li>
+                  <li><a href="">선정고등학교</a></li>
+                  <li><a href="">선정관광고등학교</a></li>
+                  <li><a href="">선화예술학교</a></li>
+                  <li><a href="">선정중학교</a></li>
+                  <li><a href="">경복초등학교</a></li>
+                  <li><a href="">선화유치원</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="">사이버홍보관</a>
+                <ul>
+                  <li><a href="">홍보영상</li>
+                  <li><a href="">홍보책자</li>
+                </ul>
+              </li>
+              <li><a href="">캠퍼스안내</li>
+
             </ul>
-        </li>
+          </li>
 
 
-        <li>
-          <a href="">산학연구</a>
-          <ul>
-            <li><a href="">산학연구</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="">대학생활</a>
-          <ul>
-            <li><a href="">학사일정</a></li>
-            <li>
-              <a href="">학사행정</a>
+          <li>
+            <a href="">입학안내
               <ul>
-                <li><a href="">학사업무안내</a></li>
-                <li><a href="">학과사무실 연락처 및 위치</a></li>
-                <li><a href="">교육과정</a></li>
+                <li><a href="">대학</li>
+                <li><a href="">대학원</li>
+                <li><a href="">한국어교육원</li>
               </ul>
-            </li>
-            <li>국제교류</li>
-            <li>병무안내</li>
-            <li>학생지원</li>
-            <li>학생활동</li>
-            <li>시설안내</li>
-            <li>E-민원</li>
-
-          </ul>
-        </li>
-
-        <li>
-          <a href="">SM Story</a>
-          <ul>
-            <li><a href="">선문뉴스</a></li>
-            <li>
-              <a href="">공지사항</a>
+          </li>
+          <li>
+            <a href="">대학/대학원
               <ul>
-                <li><a href="">일반/학사/장학/취업</a></li>
-                <li><a href="">팝업공지</a></li>
-              </ul>
-            </li>
-            <li><a href="">행사안내</a></li>
-            <li><a href="">선문갤러리</a></li>
-            <li><a href="">영상뉴스</a></li>
-            <li><a href="">선문대신문</a></li>
-            <li><a href="">간행물</a></li>
-            <li><a href="">커뮤니티</a></li>
 
-          </ul>
-        </li>
-      </ul>
+                <li>
+                  <a href="">대학
+                    <ul>
+                      <li><a href="">신학순결대학</li>
+                      <li><a href="">인문사회대학</li>
+                      <li><a href="">글로벌비즈니스외국어대학</li>
+                      <li><a href="">건강보건대학</li>
+                      <li><a href="">공과대학</li>
+                      <li><a href="">교양교육원</li>
+                    </ul>
+                </li>
+
+                <li>
+                  <a href="">대학원
+                    <ul>
+                      <li><a href="">일반대학원</li>
+                      <li><a href="">신학전문대학원</li>
+                      <li><a href="">교육대학원</li>
+                      <li><a href="">글로컬통합대학원</li>
+                    </ul>
+                </li>
+
+              </ul>
+          </li>
+
+
+          <li>
+            <a href="">산학연구</a>
+            <ul>
+              <li><a href="">산학연구</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">대학생활</a>
+            <ul>
+              <li><a href="">학사일정</a></li>
+              <li>
+                <a href="">학사행정</a>
+                <ul>
+                  <li><a href="">학사업무안내</a></li>
+                  <li><a href="">학과사무실 연락처 및 위치</a></li>
+                  <li><a href="">교육과정</a></li>
+                </ul>
+              </li>
+              <li>국제교류</li>
+              <li>병무안내</li>
+              <li>학생지원</li>
+              <li>학생활동</li>
+              <li>시설안내</li>
+              <li>E-민원</li>
+
+            </ul>
+          </li>
+
+          <li>
+            <a href="">SM Story</a>
+            <ul>
+              <li><a href="">선문뉴스</a></li>
+              <li>
+                <a href="">공지사항</a>
+                <ul>
+                  <li><a href="">일반/학사/장학/취업</a></li>
+                  <li><a href="">팝업공지</a></li>
+                </ul>
+              </li>
+              <li><a href="">행사안내</a></li>
+              <li><a href="">선문갤러리</a></li>
+              <li><a href="">영상뉴스</a></li>
+              <li><a href="">선문대신문</a></li>
+              <li><a href="">간행물</a></li>
+              <li><a href="">커뮤니티</a></li>
+
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+
 
     </nav>
 
 
     <div>
-      <h2><img src="images/sub_visual01.jpg" alt=선문을 넘은 선문의 이야기가 재창조됩니다. Re-create Yourself @ SUN MOON /></h2>
+      <h2><img src="images/sunmoon/sub_visual01.jpg" alt=선문을 넘은 선문의 이야기가 재창조됩니다. Re-create Yourself @ SUN MOON /></h2>
     </div>
 
       <nav>
@@ -258,7 +266,7 @@
 
         <p>우리대학의 건학이념인 '애천·애인·애국'의 뿌리는 '참사랑'이다. 모든 인류가 종교가 추구해왔던 근원자인 하나님의 참사랑을 가장 귀한 가치로 세웠다. 참사랑은 진선미의 바탕이 되며 영원 불변 절대적인 사랑이며 조건 없이 상대를 위해주는 순수하고 아름다운 희생적 사랑이다. 참사랑을 느끼고 생활속에서 실천할 때 인간은 행복하게 되고 생명력이 약동하며 기쁨이 생겨나게 된다. 참사랑에 의해 태어난 인간은 참사랑의 속성에 따라 '위하는 삶'을 추구함으로써 영원한 행복의 세계에 들어가게 된다. 이것이 하나님의 뜻이요, 인간이 바라는 본연의 이상이다.</p>
 
-        <img src="images/선문대학교%20건학이념.png" alt="선문대학교의 건학이념은 애천,애인,애국"/>
+        <img src="images/sunmoon/선문대학교%20건학이념.png" alt="선문대학교의 건학이념은 애천,애인,애국"/>
 
         <ul>
           <li>
