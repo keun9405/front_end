@@ -1,81 +1,245 @@
-  .small-wrap{
-    width:1094px;
-    position: relative;
-    margin: 0 auto;
-
-  }
-
-
   .header{
-    background: #01aeb2;
-    width: 100%;
+    position:relative;
+  }
+
+  .inner{
+    width:1094px;
+    margin:0 auto;
+  }
+
+  .util{
+    width:100%;
+    height:33px;
+
+    position:absolute;
+    top:0;
+    left:0;
+
+    background:#01aeb2;
+  }
+
+  .util-lang{
+    float:left;
+  }
+
+  .util-lang-item{
+    height:33px;
+    float:left;
+    border-right:1px solid #4ec6c9;
+  }
+
+  .util-lang-item:first-child{
+    border-left:1px solid #4ec6c9;
+  }
+
+  .util-lang-link{
+    display:block;
+    height:33px;
+    text-align:center;
+    line-height:33px;
+    color:#fff;
+    font-size:11px;
+    padding:0 10px;
+  }
+
+  .util-lang-link:hover a{
+    font-weight: bold;
+  }
+
+
+
+  .util-right{
+    float:right;
+  }
+
+
+  .util-general{
+    float:left;
+  }
+
+  .util-general-item{
+    float: left;
+  }
+
+  .util-general-item:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 7px;
+    background: #4ec6c9;
+    margin-bottom: 1px;
+  }
+
+  .util-general-item:last-child:after{
+    display: none;
+  }
+
+  .util-general-link{
+    font-size: 11px;
+    color: #fff;
+    display: inline-block;
     height: 33px;
+    text-align: center;
+    line-height: 33px;
+    padding: 0 10px;
+  }
+
+  .portal-link{
+    float:left;
+    background: #237491;
+    display: block;
+    color: #fff;
+    height: 33px;
+    width: 104px;
+    line-height: 31px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .portal-link:after{
+    content: "";
+    display: block;
     position: absolute;
+    top: 8px;
+    left: 20px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/sunmoon/top_portal_icon.gif) no-repeat;
   }
 
-  .gnb-depth1{
+  .search{
+    float:left;
+    margin: 4px 0 0 10px;
+
+
+  }
+
+  .search-input{
+    width: 125px;
+    height: 24px;
+    background: #dedede;
+    border: 1px solid #cacaca;
+    border-right: 0;
     float: left;
+    box-sizing: border-box;
+    font-size: 11px;
+    padding-left: 5px;
+
 
   }
 
-  .float-left{
+  .search-button{
+    display: block;
+    text-indent: -99999em;
+    width: 24px;
+    height: 24px;
+    background: #dedede url(../images/sunmoon/btn_search.png) no-repeat 0 0;
     float: left;
+    border: 1px solid #cacaca;
+    border-left:0 ;
+    box-sizing: border-box;
   }
 
-  .float-right{
-    float: right;
+
+  .search-heading{
+    display: none;
+  }
+
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #333;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #333;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #333;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #333;
   }
 
   .logo{
     position: absolute;
+    top:50px;
+    left:50px;
   }
 
-
-  .util-menu{
-    position: absolute;
-    left: 80px;
-    top: 5px;
-  }
-
-  .util-menu:after{
-    content:"";
+  .banner-top{
     display: block;
-    clear: both;
+    text-indent: -99999em;
+    height: 158px;
+    width: 100%;
+    background:url(../images/sunmoon/sub_visual01.jpg) no-repeat;
   }
 
-  .util-menu-item {
-    float: left;
-    font-size: 11px;
-    margin-left: 10px;
-    color: #ffffff;
+  .section{
+    position: relative;
+
   }
 
-  .notic{
-    position: absolute;
-    right: 80px;
-    top: 5px;
+  .lnb{
+    width:230px;
+    margin-right:42px ;
+    margin-top: 36px;
+    background: #09619e;
+    border: 1px solid #cacaca;
   }
 
-  .notic:after{
-    content:"";
+  .title{
+    font-size: 20px;
+    color: #fff;
+    line-height: 60px;
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .lnb-menu-link{
+    background: #fff;
     display: block;
-    clear: both;
+    border-bottom: #e5e7e8 solid 1px;
+    padding-left: 15px;
+    color:#2f2f2f;
+    font-size: 15px;
+    line-height: 2.5em;
+    box-sizing: border-box;
+    font-weight: bold;
+    height: 37px;
   }
 
-  .notic-menu{
+
+
+  .title2{
+    font-size: 2.5em;
+    border-bottom: 3px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+
+  }
+
+  .content1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    line-height: 38px;
+  }
+
+  .search-button{
+    display: block;
+    text-indent: -99999em;
+    width: 24px;
+    height: 24px;
+    background: #dedede url(../images/sunmoon/btn_search.png) no-repeat 0 0;
     float: left;
-    font-size: 11px;
-    margin-right: 10px;
-    color: #ffffff;
+    border: 1px solid #cacaca;
+    border-left:0 ;
+    box-sizing: border-box;
   }
 
-  .potal{
-    display:block;
-    background:#237491;
-    color:#fff;
-    border:0;
-    cursor:pointer;
-  }
 
 
 
