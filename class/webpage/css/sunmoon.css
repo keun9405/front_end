@@ -177,6 +177,7 @@
     background:url(../images/sunmoon/sub_visual01.jpg) no-repeat;
   }
 
+
   .section{
     position: relative;
 
@@ -188,6 +189,7 @@
     margin-top: 36px;
     background: #09619e;
     border: 1px solid #cacaca;
+    float: left;
   }
 
   .title{
@@ -211,13 +213,46 @@
     height: 37px;
   }
 
+  .lnb-menu-item a:hover{
+    background: #f0f2f6;
+    color: #09619e;
+  }
 
+  .lnb-button{
+    display: block;
+    text-indent: -999999em;
+    width: 11px;
+    height: 11px;
+    background: url(../images/sunmoon/blt_arrow1_2.gif) no-repeat;
+    float:right;
+    border:none;
+    cursor: pointer;
+
+  }
+
+  .lnb-depth2-item{
+    height: 37px;
+    background: #fff;
+    padding-left: 25px;
+    color: #474747;
+    font-size: 12px;
+    line-height: .8em;
+    border: 0 1px solid #ccc;
+  }
+
+  .contents{
+    position: relative;
+    margin-bottom: 40px;
+    width:815px;
+
+  }
 
   .title2{
     font-size: 2.5em;
     border-bottom: 3px solid #000;
     padding-bottom: 10px;
     margin-bottom: 80px;
+
 
   }
 
@@ -226,19 +261,13 @@
     font-weight: bold;
     padding-bottom: 30px;
     line-height: 38px;
+
   }
 
-  .search-button{
-    display: block;
-    text-indent: -99999em;
-    width: 24px;
-    height: 24px;
-    background: #dedede url(../images/sunmoon/btn_search.png) no-repeat 0 0;
-    float: left;
-    border: 1px solid #cacaca;
-    border-left:0 ;
-    box-sizing: border-box;
-  }
+
+
+
+
 
 
 
