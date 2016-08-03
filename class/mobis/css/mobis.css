@@ -1,0 +1,67 @@
+  .wrap{
+    width: 1060px;
+    margin: 0 auto;
+  }
+
+  .header{
+    position: relative;
+
+  }
+
+  .logo{
+    float: left;
+  }
+
+
+  .gnb{
+    position: absolute;
+    float: right;
+    left: 460px;
+    z-index: 100;
+    top:12px;
+
+  }
+
+
+  .gnb-depth1-item{
+    float: left;
+  }
+
+
+  .gnb-depth1-link{
+    width:150px;
+    float: right;
+    padding: 30px 0 32px;
+    text-align: center;
+
+  }
+
+  /*임시*/
+  .gnb-depth2-item{
+    display: none;
+  }
+  .gnb-depth2-item{
+    text-align: center;
+  }
+
+  .gnb-depth2-link{
+    line-height: 2.5em;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+
+  .section{
+    position: relative;
+    width: 1060px;
+  }
+
+  .banner{
+
+
+  }
+
+  .safe{
+    z-index: 100;
+    position: absolute;
+  }
+
