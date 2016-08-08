@@ -104,6 +104,8 @@
     background: url(../images/vis_txtbg.png) no-repeat 0 0;
     position: absolute;
     z-index: 100;
+    top: 224px;
+    left: 25%;
       }
 
 
@@ -112,7 +114,9 @@
     height: 44px;
     z-index: 100;
     position: absolute;
-    background: url(../images/v0_txt1.png) no-repeat 0 50%;
+    background: url(../images/v0_txt1.png) no-repeat 0 0;
+    top: 58px;
+    left: 78px;
 
   }
 
@@ -121,6 +125,7 @@
     height: 36px;
     position: absolute;
     background: url(../images/v3_txt2.png)no-repeat 0 0;
+    top: 120px;
   }
 
   .title{
@@ -170,6 +175,8 @@
   
   .ss-left{
     float: left;
+    width: 470px;
+    height: 300px;
   }
   
   .ssright{
@@ -177,9 +184,34 @@
 
   }
 
+  .child{
+    width: 222px;
+    height: 256px;
+  }
+
   .child-depth{
     float: left;
+    margin: 0 10px 0 10px;
   }
+
+  .child-depth:first-child{
+    margin-left:0
+  }
+
+  .child-depth:last-child{
+    margin-right:0
+  }
+
+  .child-depth-img{
+    margin-bottom:21px;
+
+  }
+
+  .yellow-bar{
+    float: left;
+    margin-right: 10px;
+  }
+
 
   .photo{
     float: right;
@@ -191,14 +223,70 @@
   }
 
 
-
   .news-depth{
     float: left;
   }
 
   .clear-umb{
     display: block;
+    float: left;
   }
+
+  .um-p{
+    position: absolute;
+    text-indent: -9999em;
+    width: 238px;
+    height: 184px;
+    display: block;
+    left: 35px;
+    background: url(../images/mBanSave_bg.jpg) no-repeat center 0;
+  }
+
+  .yellow-box{
+    position: absolute;
+    left: 0;
+
+  }
+
+
+  .yellow-review-wrap{
+    background: #faf05e;
+    padding: 35px 36px;
+    width: 238px;
+    height: 365px;
+
+  }
+
+  .yellow-review{
+    background: #faf05e;
+
+  }
+
+  .text-t{
+    float: left;
+    margin-top: 200px;
+  }
+
+  .text-p{
+    float: left;
+    margin-top: 220px;
+    position: absolute;
+    width: 284px;
+    height: 24px;
+  }
+
+  .social-depth{
+    float: left;
+  }
+
+  .social-depth-link1{
+    display: block;
+    text-indent: -9999em;
+    background: url(../images/mCsrIcon1.png) no-repeat 0 0;
+    width: 190px;
+    height: 255px;
+  }
+
 
 
 
