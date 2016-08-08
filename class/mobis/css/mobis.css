@@ -38,7 +38,7 @@
 
   }
 
-  /*/!* юс╫ц *!/*/
+  /*/!* О©╫с╫О©╫ *!/*/
   /*.gnb-depth2-item{*/
     /*display: none;*/
   /*}*/
@@ -87,7 +87,7 @@
 
   .umb-bg{
     width: 1060px;
-    height: 706px;
+    height: 500px;
     display: block;
     text-indent: -9999em;
     background: url(../images/visual0.jpg) no-repeat 0 0;
@@ -104,7 +104,7 @@
     background: url(../images/vis_txtbg.png) no-repeat 0 0;
     position: absolute;
     z-index: 100;
-    top: 224px;
+    top: 153px;
     left: 25%;
       }
 
@@ -142,6 +142,7 @@
     width: 24px;
     height: 45px;
     background: url(../images/mRotateL_bt.png) no-repeat 0 0;
+    margin-top: 13px;
   }
 
   .center{
@@ -155,6 +156,7 @@
     width: 24px;
     height: 45px;
     background: url(../images/mRotateR_bt.png) no-repeat 0 0;
+    margin-top: 13px;
   }
 
   .md-title{
@@ -163,35 +165,47 @@
 
   .m-title{
     text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 526px;
   }
 
   .s-left{
-    float: left;
+    display: inline-block;
   }
 
   .s-right{
+    float: right;
+    width: 730px;
+  }
+
+  .s-top{
     float: left;
+    width: 730px;
   }
   
   .ss-left{
     float: left;
-    width: 470px;
+    width: 730px;
     height: 300px;
   }
   
-  .ssright{
+  .ss-right{
     float: right;
 
   }
 
   .child{
-    width: 222px;
-    height: 256px;
+    width: 455px;
+    height: 300px;
+
   }
 
+
   .child-depth{
-    float: left;
     margin: 0 10px 0 10px;
+    display: inline;
+    float: left;
   }
 
   .child-depth:first-child{
@@ -204,12 +218,18 @@
 
   .child-depth-img{
     margin-bottom:21px;
+    float: left;
 
   }
 
   .yellow-bar{
     float: left;
     margin-right: 10px;
+  }
+
+  .clear-umb{
+    display: block;
+    float: left;
   }
 
 
@@ -227,10 +247,7 @@
     float: left;
   }
 
-  .clear-umb{
-    display: block;
-    float: left;
-  }
+
 
   .um-p{
     position: absolute;
@@ -245,6 +262,7 @@
   .yellow-box{
     position: absolute;
     left: 0;
+    float: left;
 
   }
 
@@ -254,29 +272,54 @@
     padding: 35px 36px;
     width: 238px;
     height: 365px;
+    float: left;
 
   }
 
   .yellow-review{
     background: #faf05e;
+    float: left;
 
   }
 
   .text-t{
     float: left;
     margin-top: 200px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
   }
 
   .text-p{
     float: left;
-    margin-top: 220px;
-    position: absolute;
-    width: 284px;
-    height: 24px;
+    margin: 12px 0 0;
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+  }
+
+  .social-title{
+    margin: 0 auto;
+    width: 88px;
+    height: 15px;
+    text-indent: -99999em;
+    background: url(../images/mCsr_tit.png) no-repeat 0 30px;
+    display: block;
+    padding: 30px;
+
+  }
+
+
+  .social{
+    margin:0 213px;
+    width: 946px;
+
+
   }
 
   .social-depth{
     float: left;
+    margin-right: 30px;
   }
 
   .social-depth-link1{
@@ -287,8 +330,87 @@
     height: 255px;
   }
 
+  .social-depth-link2{
+    display: block;
+    text-indent: -9999em;
+    background: url(../images/mCsrIcon1.png) no-repeat 0 0;
+    width: 190px;
+    height: 255px;
+  }
+
+  .social-depth-link3{
+    display: block;
+    text-indent: -9999em;
+    background: url(../images/mCsrIcon1.png) no-repeat 0 0;
+    width: 190px;
+    height: 255px;
+  }
+
+  .social-depth-link4{
+    display: block;
+    text-indent: -9999em;
+    background: url(../images/mCsrIcon1.png) no-repeat 0 0;
+    width: 190px;
+    height: 255px;
+  }
+
+  .section4{
+    width: 100%;
+    background: #f7f7f7;
+    height: 346px;
+  }
+
+  .table-depth{
+    float: left;
+    padding: 30px 0  20px;
+  }
+
+  .btn{
+    float:right;
+
+  }
+
+  .table-depth2{
+    border-right:1px solid #dddddd ;
+  }
+
+  .table-depth2-item{
+
+  }
 
 
+
+
+
+   .footer{
+     width: 100%;
+     height: 130px;
+     background: #323232;
+     color:#fff;
+     font-size:14px;
+   }
+
+  .footer-item{
+    float: left;
+    z-index: 9999;
+    margin: 20px 10px 0 ;
+    color:#fff;
+  }
+
+  .copy{
+
+  }
+
+  .button{
+    display: inline-block;
+    width: 53px;
+    height: 33px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    border: 1px solid #020202;
+    background: #111111;
+  }
 
 
 
