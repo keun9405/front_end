@@ -272,6 +272,8 @@
     padding: 10px 0 0;
     letter-spacing: -1px;
     color: #333;
+    width: 330px;
+    height: 90px;
 
   }
 
@@ -447,6 +449,7 @@
     width: 234px;
     height: 33px;
     background:url(../images/mCsrIntroTx.gif) no-repeat 0 0;
+    margin: 50px 0;
   }
 
   .intro{
@@ -462,6 +465,10 @@
     padding: 30px 0  20px;
     margin-right: 30px;
     width:30%;
+  }
+
+  .date{
+    margin:10px 0;
   }
 
   .btn{
