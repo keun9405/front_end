@@ -2,99 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c8260e-0844-44d0-8d36-1248f81b6230" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\css\mobis.css" afterPath="$PROJECT_DIR$/mobis/css/mobis.css" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\html\mobis.html" afterPath="$PROJECT_DIR$/mobis/html/mobis.html" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\btnRow_bu1.png" afterPath="$PROJECT_DIR$/mobis/images/btnRow_bu1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\famBt_bu.gif" afterPath="$PROJECT_DIR$/mobis/images/famBt_bu.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\footer_bar.gif" afterPath="$PROJECT_DIR$/mobis/images/footer_bar.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\gnbBg.png" afterPath="$PROJECT_DIR$/mobis/images/gnbBg.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\grayTop20x2_bar.gif" afterPath="$PROJECT_DIR$/mobis/images/grayTop20x2_bar.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\logo.png" afterPath="$PROJECT_DIR$/mobis/images/logo.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanEasy_bg.jpg" afterPath="$PROJECT_DIR$/mobis/images/mBanEasy_bg.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanGreen_bg.jpg" afterPath="$PROJECT_DIR$/mobis/images/mBanGreen_bg.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanHappy_bg.jpg" afterPath="$PROJECT_DIR$/mobis/images/mBanHappy_bg.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanL_bt.png" afterPath="$PROJECT_DIR$/mobis/images/mBanL_bt.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanR_bt.png" afterPath="$PROJECT_DIR$/mobis/images/mBanR_bt.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanS0_tit1.png" afterPath="$PROJECT_DIR$/mobis/images/mBanS0_tit1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanS1_tit1.png" afterPath="$PROJECT_DIR$/mobis/images/mBanS1_tit1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanS2_tit1.png" afterPath="$PROJECT_DIR$/mobis/images/mBanS2_tit1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanS3_tit1.png" afterPath="$PROJECT_DIR$/mobis/images/mBanS3_tit1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanSave_bg.jpg" afterPath="$PROJECT_DIR$/mobis/images/mBanSave_bg.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanSt0_bt_on.png" afterPath="$PROJECT_DIR$/mobis/images/mBanSt0_bt_on.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanSt1_bt_on.png" afterPath="$PROJECT_DIR$/mobis/images/mBanSt1_bt_on.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanSt2_bt_on.png" afterPath="$PROJECT_DIR$/mobis/images/mBanSt2_bt_on.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanSt3_bt_on.png" afterPath="$PROJECT_DIR$/mobis/images/mBanSt3_bt_on.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBanSt_bt.png" afterPath="$PROJECT_DIR$/mobis/images/mBanSt_bt.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBlock0_tit1.gif" afterPath="$PROJECT_DIR$/mobis/images/mBlock0_tit1.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBlock1_tit1.gif" afterPath="$PROJECT_DIR$/mobis/images/mBlock1_tit1.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBlock2_tit1.gif" afterPath="$PROJECT_DIR$/mobis/images/mBlock2_tit1.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mBlock3_tit1.gif" afterPath="$PROJECT_DIR$/mobis/images/mBlock3_tit1.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon1.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon1_on.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon1_on.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon2.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon2.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon2_on.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon2_on.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon3.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon3.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon3_on.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon3_on.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon4.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon4.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon5.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon5.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon6.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon6.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon7.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon7.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIcon8.png" afterPath="$PROJECT_DIR$/mobis/images/mCsrIcon8.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIntroBanner.gif" afterPath="$PROJECT_DIR$/mobis/images/mCsrIntroBanner.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIntroTx.gif" afterPath="$PROJECT_DIR$/mobis/images/mCsrIntroTx.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsrIntro_tit.gif" afterPath="$PROJECT_DIR$/mobis/images/mCsrIntro_tit.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mCsr_tit.png" afterPath="$PROJECT_DIR$/mobis/images/mCsr_tit.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mNewsBu.gif" afterPath="$PROJECT_DIR$/mobis/images/mNewsBu.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mNews_tit.png" afterPath="$PROJECT_DIR$/mobis/images/mNews_tit.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mNoti_tit.gif" afterPath="$PROJECT_DIR$/mobis/images/mNoti_tit.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mPhotoEasy_bg.gif" afterPath="$PROJECT_DIR$/mobis/images/mPhotoEasy_bg.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mPhotoGreen_bg.gif" afterPath="$PROJECT_DIR$/mobis/images/mPhotoGreen_bg.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mPhotoHappy_bg.gif" afterPath="$PROJECT_DIR$/mobis/images/mPhotoHappy_bg.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mPhotoSave_bg.gif" afterPath="$PROJECT_DIR$/mobis/images/mPhotoSave_bg.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mPlayBt.png" afterPath="$PROJECT_DIR$/mobis/images/mPlayBt.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mRotateL_bt.png" afterPath="$PROJECT_DIR$/mobis/images/mRotateL_bt.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mRotateR_bt.png" afterPath="$PROJECT_DIR$/mobis/images/mRotateR_bt.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mVideoSt0_img.gif" afterPath="$PROJECT_DIR$/mobis/images/mVideoSt0_img.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mVideoSt1_img.gif" afterPath="$PROJECT_DIR$/mobis/images/mVideoSt1_img.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mVideoSt2_img.gif" afterPath="$PROJECT_DIR$/mobis/images/mVideoSt2_img.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mVideoSt3_img.gif" afterPath="$PROJECT_DIR$/mobis/images/mVideoSt3_img.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mVisBt.png" afterPath="$PROJECT_DIR$/mobis/images/mVisBt.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\mVisBt_on.png" afterPath="$PROJECT_DIR$/mobis/images/mVisBt_on.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\menu1.png" afterPath="$PROJECT_DIR$/mobis/images/menu1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\menu2.png" afterPath="$PROJECT_DIR$/mobis/images/menu2.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\menu3.png" afterPath="$PROJECT_DIR$/mobis/images/menu3.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\menu4.png" afterPath="$PROJECT_DIR$/mobis/images/menu4.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\photoGoTx.png" afterPath="$PROJECT_DIR$/mobis/images/photoGoTx.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\reviewFream0.png" afterPath="$PROJECT_DIR$/mobis/images/reviewFream0.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\reviewFream1.png" afterPath="$PROJECT_DIR$/mobis/images/reviewFream1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\reviewFream2.png" afterPath="$PROJECT_DIR$/mobis/images/reviewFream2.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\reviewFream3.png" afterPath="$PROJECT_DIR$/mobis/images/reviewFream3.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\rowRollL_bt.gif" afterPath="$PROJECT_DIR$/mobis/images/rowRollL_bt.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\rowRollR_bt.gif" afterPath="$PROJECT_DIR$/mobis/images/rowRollR_bt.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\togetherTx0.gif" afterPath="$PROJECT_DIR$/mobis/images/togetherTx0.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\togetherTx1.gif" afterPath="$PROJECT_DIR$/mobis/images/togetherTx1.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\togetherTx2.gif" afterPath="$PROJECT_DIR$/mobis/images/togetherTx2.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\togetherTx3.gif" afterPath="$PROJECT_DIR$/mobis/images/togetherTx3.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\v0_txt1.png" afterPath="$PROJECT_DIR$/mobis/images/v0_txt1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\v0_txt2.png" afterPath="$PROJECT_DIR$/mobis/images/v0_txt2.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\v1_txt1.png" afterPath="$PROJECT_DIR$/mobis/images/v1_txt1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\v1_txt2.png" afterPath="$PROJECT_DIR$/mobis/images/v1_txt2.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\v2_txt1.png" afterPath="$PROJECT_DIR$/mobis/images/v2_txt1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\v2_txt2.png" afterPath="$PROJECT_DIR$/mobis/images/v2_txt2.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\v3_txt1.png" afterPath="$PROJECT_DIR$/mobis/images/v3_txt1.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\v3_txt2.png" afterPath="$PROJECT_DIR$/mobis/images/v3_txt2.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\vis_txtbg.png" afterPath="$PROJECT_DIR$/mobis/images/vis_txtbg.png" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\visual0.jpg" afterPath="$PROJECT_DIR$/mobis/images/visual0.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\visual1_1.jpg" afterPath="$PROJECT_DIR$/mobis/images/visual1_1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\visual1_2.jpg" afterPath="$PROJECT_DIR$/mobis/images/visual1_2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\visual2_1.jpg" afterPath="$PROJECT_DIR$/mobis/images/visual2_1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\visual2_2.jpg" afterPath="$PROJECT_DIR$/mobis/images/visual2_2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\visual3_1.jpg" afterPath="$PROJECT_DIR$/mobis/images/visual3_1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\visual3_2.jpg" afterPath="$PROJECT_DIR$/mobis/images/visual3_2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\webzineImg.gif" afterPath="$PROJECT_DIR$/mobis/images/webzineImg.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\webzineImg_bg.gif" afterPath="$PROJECT_DIR$/mobis/images/webzineImg_bg.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\webzine_tit.gif" afterPath="$PROJECT_DIR$/mobis/images/webzine_tit.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-09\Desktop\front_end\class\mobis\images\yellow1x15_bar.gif" afterPath="$PROJECT_DIR$/mobis/images/yellow1x15_bar.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobis/html/mobis.html" afterPath="$PROJECT_DIR$/mobis/html/mobis.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front_end.iws" />
@@ -121,7 +29,7 @@
           <file leaf-file-name="mobis.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mobis/css/mobis.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33333334">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="495" column="36" selection-start-line="495" selection-start-column="36" selection-end-line="495" selection-end-column="36" />
                   <folding />
                 </state>
@@ -165,8 +73,8 @@
           <file leaf-file-name="mobis.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mobis/html/mobis.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8453608">
-                  <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.4357798">
+                  <caret line="240" column="34" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -451,8 +359,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09114858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -837,15 +745,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobis/html/mobis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8453608">
-          <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4357798">
+          <caret line="240" column="34" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobis/css/mobis.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
+        <state vertical-scroll-proportion="0.0">
           <caret line="495" column="36" selection-start-line="495" selection-start-column="36" selection-end-line="495" selection-end-column="36" />
           <folding />
         </state>
