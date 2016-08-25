@@ -93,7 +93,6 @@
 
   .gnb-depth2-link{
     color:#666;
-    text
   }
 
 
@@ -500,8 +499,11 @@
 
   .table-depth{
     float: left;
-    padding: 30px 0  20px;
-    width:33.3%;
+    width: 260px;
+    padding: 0 30px 0 0;
+    margin: 0 49px 0 0;
+    height: 202px;
+    border-right: 1px solid #e7e7e7;
   }
 
   .date{
@@ -513,12 +515,37 @@
 
   }
 
+
   .notic{
     display: block;
     text-indent: -9999em;
     background: url(../images/mNoti_tit.gif) no-repeat 0 0;
     width: 72px;
     height: 20px;
+  }
+
+  .tilt-A{
+    margin: 2px 0 12px;
+    font-size: 15px;
+    color: #444;
+    line-height: 18px;
+  }
+
+  .tilt-date{
+    width: 240px;
+    color: #777;
+    font-size: 13px;
+    letter-spacing: 0;
+  }
+
+  .table-depth2{
+    margin-top:20px;
+  }
+
+  .table-depth2-it{
+    padding: 0 0 12px;
+    margin: 0 0 12px;
+    border-bottom: 1px dashed #e7e7e7;
   }
 
   .button{
@@ -622,7 +649,6 @@
     letter-spacing: 0;
     border: 1px solid #020202;
     background: #111111;
-
   }
 
   .option{
