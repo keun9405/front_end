@@ -1,0 +1,23 @@
+  .inner{
+    width:1000px;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .header{
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    width: 892px;
+    height: 64px;
+    padding-left: 188px;
+    margin-left: -539px;
+    background: #ffd200;
+
+  }
+
+
+
+
+
