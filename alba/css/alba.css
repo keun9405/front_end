@@ -43,21 +43,199 @@
     float: left;
     margin-right: 34px;
     background: url(../../alba/images/w_campaign_gnb_v2.png) no-repeat;
+    display: block;
+    text-indent: -9999em;
   }
 
   .gnb-depth1-link{
     text-align: center;
+    display: block;
+    height: 64px;
   }
 
-  .first{
+  .first {
     width: 139px;
     background-position: -38px 0;
+  }
+
+  .second{
+    width: 72px;
+    background-position: -211px 0;
+  }
+
+  .third{
+    width: 76px;
+    background-position: -317px 0;
 
   }
+
+  .forth{
+    width:103px;
+    background-position: -427px 0;
+  }
+
+  .fifth{
+    width: 77px;
+    background-position: -564px 0;
+
+  }
+
+  .sixth{
+    width: 74px;
+    background-position: -675px 0;
+  }
+
+  .seventh{
+    width: 93px;
+    margin-right: 0;
+    background-position: -781px 0px;
+  }
+
+  .event-icon{
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 49px;
+    height: 50px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../../alba/images/w_event_balloon.png) no-repeat 0 0;
+  }
+
+  .new-icon{
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 49px;
+    height: 50px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../../alba/images/w_new_balloon.png) no-repeat 0 0;
+     }
+
+  .background1{
+    position: absolute;
+    background: url(../../alba/images/w_visual_bg1.jpg) no-repeat 0 0;
+    text-indent: -9999em;
+    display: block;
+    width: 1903px;
+    height: 1080px;
+    z-index: -900;
+    margin: 0 auto;
+  }
+
+  .background2{
+    position: absolute;
+    background: url(../../alba/images/w_visual_bg2.jpg) no-repeat 0 0;
+    text-indent: -9999em;
+    display: block;
+    width: 1903px;
+    height: 1080px;
+    z-index: -900;
+    margin: 0 auto;
+  }
+
+  .background3{
+    position: absolute;
+    background: url(../../alba/images/w_visual_bg3.jpg) no-repeat 0 0;
+    text-indent: -9999em;
+    display: block;
+    width: 1903px;
+    height: 1080px;
+    z-index: -900;
+    margin: 0 auto;
+  }
+
+  .background4{
+    position: absolute;
+    background: url(../../alba/images/w_visual_bg4.jpg) no-repeat 0 0;
+    text-indent: -9999em;
+    display: block;
+    width: 1903px;
+    height: 1080px;
+    z-index: -900;
+    margin: 0 auto;
+  }
+
+  .btn-page{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 0 4px;
+    vertical-align: top;
+    background-position: -22px -81px;
+    text-indent: -9999em;
+  }
+
+
+
+  .preview{
+    position: absolute;
+    left: 5%;
+    top: -314px;
+    width: 37px;
+    height: 71px;
+    background: url(../../alba/images/w_visual_btnBg.png) no-repeat 0 0;
+  }
+
+  .next{
+    position: absolute;
+    right: 5%;
+    top: -314px;
+    width: 37px;
+    height: 71px;
+    background: url(../../alba/images/w_visual_btnBg.png) no-repeat -47px 0;
+  }
+
+  .contentwrap{
+    padding: 90px 0 0;
+    background: #fff url(../../alba/images/w_contentWrap_bg.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    margin-left: 980px;
+    }
 
   .background{
     position: absolute;
   }
+
+  .content{
+    position: relative;
+    width: 1000px;
+    padding-bottom: 85px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .alba-talk{
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.1em;
+  }
+
+  .alba-attend{
+    margin-top: 30px;
+    font-size: 24px;
+    letter-spacing: -0.1em;
+    font-weight: bold;
+    background: url(../../alba/images/w_count_bar.png) no-repeat center top;
+  }
+
+  .join-btn{
+    display: block;
+    width: 360px;
+    height: 70px;
+    margin: 40px auto 0;
+    font: 0/0 dotum;
+    color: transparent;
+    background: url(../../alba/images/w_joinBtn.jpg) no-repeat 0 0;
+  }
+
+
+
+
+
 
 
 
