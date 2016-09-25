@@ -1,7 +1,5 @@
   .inner{
-    width:1000px;
     position: relative;
-    height: 100%;
     margin: 0 auto;
   }
 
@@ -113,6 +111,12 @@
     background: url(../../alba/images/w_new_balloon.png) no-repeat 0 0;
      }
 
+  .background{
+    width:1900px;
+    height: 1800px;
+    position: absolute;
+  }
+
   .background1{
     position: absolute;
     background: url(../../alba/images/w_visual_bg1.jpg) no-repeat 0 0;
@@ -168,7 +172,6 @@
   }
 
 
-
   .preview{
     position: absolute;
     left: 5%;
@@ -187,16 +190,37 @@
     background: url(../../alba/images/w_visual_btnBg.png) no-repeat -47px 0;
   }
 
+  .container ul{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 1800px;
+    height: 1080px;
+    max-height: none;
+    max-width: none;
+    z-index: -999999;
+    left: -264.5px;
+    top: 0px;
+  }
+
   .contentwrap{
     padding: 90px 0 0;
-    background: #fff url(../../alba/images/w_contentWrap_bg.png) no-repeat center top;
+    background: #fff url(../../alba/images/w_contentWrap_bg.png) no-repeat;
     position: absolute;
-    left: 50%;
-    margin-left: 980px;
+    margin: 0 auto;
+    width: 1271px;
+
     }
+
 
   .background{
     position: absolute;
+  }
+
+  .contentwrap strong{
+    font-size: 80px;
+    color: #000;
   }
 
   .content{
@@ -205,6 +229,7 @@
     padding-bottom: 85px;
     margin: 0 auto;
     text-align: center;
+    height: 400px;
   }
 
 
@@ -214,7 +239,7 @@
     letter-spacing: -0.1em;
   }
 
-  .alba-attend{s
+  .alba-attend{
     margin-top: 30px;
     font-size: 24px;
     letter-spacing: -0.1em;
@@ -231,6 +256,141 @@
     color: transparent;
     background: url(../../alba/images/w_joinBtn.jpg) no-repeat 0 0;
   }
+
+  .content-lap{
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+
+  }
+
+  .breakfast{
+    background: url(../../alba/images/w_breakfastM_bg.jpg) no-repeat 0 0;
+    width: 500px;
+    height: 340px;
+    display: block;
+    text-indent: -9999px;
+    float: left;
+  }
+
+  .reward{
+    background: url(../../alba/images/new_w_reward_bg.jpg) no-repeat 0 0;
+    width: 500px;
+    height: 340px;
+    display: block;
+    text-indent: -9999px;
+    float: left;
+  }
+
+  .withdingo{
+    background: url(../../alba/images/w_postbox_bg_n.jpg) no-repeat 0 0;
+    width: 500px;
+    height: 340px;
+    display: block;
+    text-indent: -9999px;
+    float: left;
+  }
+
+  .custom{
+    background: url(../../alba/images/w_custom_bg.jpg) no-repeat 0 0;
+    width: 500px;
+    height: 340px;
+    display: block;
+    text-indent: -9999px;
+    float: left;
+  }
+
+  .heaven{
+    background: url(../../alba/images/w_heaven_bg.jpg) no-repeat 0 0;
+    width: 500px;
+    height: 340px;
+    display: block;
+    text-indent: -9999px;
+    float: left;
+  }
+
+  .campaign{
+    background: url(../../alba/images/w_contract_bg.jpg) no-repeat 0 0;
+    width: 500px;
+    height: 340px;
+    display: block;
+    text-indent: -9999px;
+    float: left;
+  }
+
+  .moviewrap{
+    padding: 70px 0;
+    background: #f8f8f8;
+    width: 1271px;
+    height: 598px;
+    position: absolute;
+
+  }
+
+  .movie{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .movie-title{
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .movie-menu{
+    width: 810px;
+    margin: 50px auto 0;
+  }
+  .movie-menu a{
+    float: left;
+    margin-right: 8px;
+    padding: 6px 20px 8px;
+    font-size: 20px;
+    letter-spacing: -2px;
+    text-align: center;
+    background: #e6e6e6;
+    color: #666;
+  }
+
+  .movie-box{
+
+    width: 810px;
+    height: 456px;
+    position: absolute;
+    left: 50%;
+    margin-left: -405px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .footer{
+    background: #333;
+    padding: 50px 0;
+  }
+
+  .footer-menu{
+    float: left;
+  }
+
+  .footer-menu a{
+    font: 14px 'Malgun Gothic';
+    letter-spacing: -0.1em;
+    color: #ccc
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
