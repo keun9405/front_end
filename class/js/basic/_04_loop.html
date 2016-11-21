@@ -3,35 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
-  <script>
 
-    var a = 0;
-
-    for (var i=1; i<=100; i++){
-      a=a+i;
+  <style>
+    #result{
+      width:200px;
+      height:200px;
+      background:yellow;
+      color:red;
+      font-size:72px;
+      font-weight:bold;
+      position:absolute;
+      top:50%;
+      left:50%;
+      margin:-100px 0 0 -100px;
+      text-align:center;
+      line-height:200px;
     }
+  </style>
 
-    document.write(a);
-
-    var node = document.createTextNode(a);
-    // div 태그 새로 생성
-    var div = document.createElement('div');
-    // div 태그에 a id 추가
-    div.setAttribute('id', 'result');
-    // result 결과값을 새로 생성된 div태그에 넣어줌
-    div.appendChild(node);
-    // ==> <div id="result">100</div>
-    // id=body 인 태그 영역을 가져옴
-    var element = document.getElementById("body");
-    // id=body 인 태그 영역에 생성된 a 결과값을 넣어줌
-    element.appendChild(div);
-
-
-
-  </script>
 </head>
 <body id="body">
 
+<div>
+  <span class="start-value">1 부터</span>
+
+  <input type="text" id="end-value" />
+
+  <span>까지의 숫자의 합</span>
+</div>
+
+<div>
+  <button type="button" onclick="sum();">합 구하기</button>
+</div>
 
 </body>
+
+<script>
+  function sum(){
+    var a=0;
+    var endValue = document.getElementById('end-value').value;
+    for(var i=1; i<=parseInt(endValue); i++){
+      a=a+i;
+    }
+    var node = document.createTextNode(a);
+    var div = document.createElement('div');
+    div.setAttribute('id', 'result');
+    div.appendChild(node);
+    var element = document.getElementById("body");
+    element.appendChild(div);
+  }
+</script>
+
 </html>

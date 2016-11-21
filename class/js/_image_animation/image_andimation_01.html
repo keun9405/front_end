@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href=""/>
+  <script src="../lib/jquery-3.1.1.js"></script>
+  <script>
+
+    $(document).ready(function(){
+
+//      var i=1;
+//      $('.image').attr('src', 'sprite/'+'.jpg');
+
+      $('.play').on('click', function(){
+
+        var i = 1;
+
+        var timeId= setInterval(function(){
+
+          if(i >= 61){
+            i = 1;
+          }
+
+          $('.image').attr('src','sprite/')
+        })
+      })
+
+
+
+
+
+    })
+  </script>
+
+  <style>
+    .wrap{
+      width:840px;
+      height:550px;
+      border:1px solid #237491;
+      margin: 0 auto;
+    }
+    h1{
+      text-align: center;
+    }
+
+    .btn-wrap{
+      text-align: center;
+    }
+
+    .btn{
+      border:0;
+      background: #FFA585;
+      color:#3f291a;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="image-wrap">
+
+      <div class="image-wrap">
+        <h1> 이미지 애니메이션 - 애니메이션 컨트롤</h1>
+        <img src="sprite/1.jpg" alt=""/>
+      </div>
+
+      <div class="btn-wrap">
+        <button type="button" class="btn play">Play</button>
+        <button type="button" class="btn play">Stop</button>
+        <button type="button" class="btn play">Prev</button>
+        <button type="button" class="btn play">Next</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

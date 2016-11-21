@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="../js/lib/jquery-3.1.1.js"></script>
+
+  <style>
+
+    .wall{
+      width: 1000px;
+      height: 500px;
+
+      border: 30px solid #3f291a transparent;
+      border-top: 0;
+
+      border-image: url(images.jpg) 80 round;
+
+    }
+
+    .wrap{
+      width:100px;
+      height: 100px;
+
+      position: absolute;
+      top: 0;
+      left: 37px;
+
+      transition: left 10s linear;
+    }
+
+    .wrap.end{
+      left: 939px;
+
+    }
+
+
+    .ball{
+      width: 100px;
+      height: 100px;
+
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+
+      transition:top 2s ease-in;
+
+    }
+
+    .ball.drop{
+      top:500px
+    }
+
+    /*.btn-move{*/
+      /*width: 100px;*/
+      /*height: 50px;*/
+
+      /*border:0;*/
+      /*background: #237491;*/
+      /*color: #fff;*/
+      /*font-weight: bold;*/
+
+      /*position: absolute;*/
+      /*bottom: 100px;*/
+    /*}*/
+
+  </style>
+
+  <script>
+    function bound(){
+
+      $('.ball').on('click',function(){
+
+        $(function)
+
+        setInterval(function(){
+
+          $('.ball').addClass('drop').css({transition: 'top 0.5s cubic-bezier(0,.71,1,.55) '})
+        });
+
+        setTimeout(function(){
+          $('.ball').removeClass('drop').css({transition : 'top 1s cubic-bezier(0,.71,.13,.98) '});
+        }, 500);
+
+
+        function round(){
+          $('.wrap').addClass('end');
+
+          setTimeout(function() {
+            $('.wrap').removeClass('end');
+
+          }, 10000);
+
+        }
+
+        $(function)(){
+          $('ball').on('click',function(){
+            round();
+            bound();
+
+            setTimeout(function({
+                    bound;
+                    }));
+          });
+
+
+
+        }
+
+
+        });
+
+       });
+
+
+  </script>
+
+</head>
+<body>
+
+<div class="wrap">
+
+  <img class="ball" src="공.png">
+
+  <button type="button" class="btn-move">Move</button>
+
+  <div class="wall"></div>
+
+</div>
+
+
+
+</body>
+</html>
